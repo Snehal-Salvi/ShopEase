@@ -4,9 +4,15 @@ This React application displays a list of products fetched from an API. It utili
 
 ## Deployment Link:
 
-[ShopEase App]( )
+[ShopEase App](https://shopease-ehpz.onrender.com)
 
 ## Application Demo
+
+
+
+https://github.com/Snehal-Salvi/ShopEase/assets/125987932/c6d95254-2f20-4af9-9c0a-e193ead279c6
+
+
 
 ## Snapshots
 
