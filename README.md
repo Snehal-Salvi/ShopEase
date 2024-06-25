@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# ShopEase App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application displays a list of products fetched from an API. It utilizes Redux for state management and handles offline mode by displaying locally stored products when the user is offline.
 
-## Available Scripts
+## Deployment Link:
 
-In the project directory, you can run:
+[ShopEase App]( )
 
-### `npm start`
+## Application Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Snapshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Home Page**
 
-### `npm test`
+![Home Page](./src/assets/Home.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Cart Page**
 
-### `npm run build`
+![Cart Page](./src/assets/Cart.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Offline Mode**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Offline Mode](./src/assets/Offline.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Fetches products from a REST API and displays them in layout.
+- Handles offline mode by storing products in local storage and displaying them when the user is offline.
+- Allows users to add products to a shopping cart.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository.
+2. Navigate to the project directory:
+3. Install the necessary dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+4. Run the project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. The app will start running on http://localhost:3000.
 
-### Code Splitting
+## Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Product Component
 
-### Analyzing the Bundle Size
+The `Product` component fetches and displays a list of products from an API using Redux. It handles the following functionalities:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Cart Component
 
-### Making a Progressive Web App
+The `Cart` component displays the current items in the shopping cart using Redux state management. It provides a table layout with columns for product name, price, quantity, total price, and actions (such as removing items from the cart).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Loader Component
 
-### Advanced Configuration
+The `Loader` component displays a loading spinner while fetching data from the API or performing other asynchronous tasks. This improves the user experience by indicating that data is being loaded.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies Used
 
-### Deployment
+- React
+- Redux Toolkit
+- Tailwind CSS
+- JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@Snehal](https://github.com/Snehal-Salvi)
